@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+body{
+    background-color: rgb(43, 42, 42);
+}
+.tags{
+    background-color:blue;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    padding:  3px 10px;
+    display: inline-block;
+    color:white;
+    font-size: 12px;
+    
+}
+
+.tags:last-child{
+    margin-right: 0;
+    
+}
+
+.tags:nth-child(2){
+    background-color: rgb(238, 17, 183);
+
+}
+
+.tags:nth-child(3){
+    background-color: rgb(148, 238, 30);
+    
+
+
+}
+.tags:nth-child(4){
+    background-color: rgb(230, 17, 17);
+}
+}
